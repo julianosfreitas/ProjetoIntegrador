@@ -1,0 +1,27 @@
+
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+}
+
+#anjodaguarda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#perfilLogo{
+    width: 18;
+    height: 70px;
+    margin: 20px;
+}
+
+#textoanjo{
+    margin: 0 auto;
+}

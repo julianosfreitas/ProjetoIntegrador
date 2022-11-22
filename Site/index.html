@@ -5,34 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anjo da Guarda</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <header>
-        <nav id="cabecalho">
-            <header id="anjoDaGuarda">
-                <img src="components/logo.png" alt="icone de perfil" id="perfilLogo">
-                <h1 id="logo">ANJO DA GUARDA</h1>
-            </header>
-            <ul id="menu">
-                <li><a href="#">DEPOIMENTOS</a></li>
-                <li><a href="#">REUNIÔES</a></li>
-                <li><a href="#">HISTÓRIAS</a></li>
-                <li><a href="#">ACESSAR</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav id="cabecalho">
+        <header id="anjoDaGuarda">
+            <img src="components/logo.png" alt="icone de perfil" id="perfilLogo">
+            <h1 id="logo">ANJO DA GUARDA</h1>
+        </header>
+        <ul id="menu">
+            <li><a href="#">DEPOIMENTOS</a></li>
+            <li><a href="#">REUNIÕES</a></li>
+            <li><a href="#">HISTÓRIAS</a></li>
+            <button>ACESSAR</button>
+        </ul>
+    </nav>
+
     <main>
         <article id="paginaInicial">
             <aside id="imgPaginaInicial">
-                <img src="components/anjinho.gif" alt="gif da logo do site.">
-            </aside>
-            <section id="txtPaginaInicial">
-                <h4>
+                <img src="components/anjinho.gif" alt="gif da logo do site." id="dependenteInicial">
+                <h4 id="txtInicial">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nemo voluptates quam, dicta eius iusto, repellendus voluptate voluptatem  necessitatibus temporibus enim ad laborum at quibusdam omnis nobis quisquam reprehenderit architecto.
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis quo accusantium nobis sed dolore iste, enim at odit expedita hic impedit quis deserunt optio omnis modi. Possimus aliquid saepe accusantium.
                 </h4>
-            </section>
+            </aside>
         </article>
+
         <article id="depoimentos">
             <img src="components/logo.png" alt="logo" class="logo">
             <p id="txtDepoimentos">DEPOIMENTOS</p>
@@ -42,6 +41,7 @@
                 <img src="components/logo.png" alt="depoimento três">
             </aside>
         </article>
+
         <article id="reunioes">
             <img src="components/logo.png" alt="logo" class="logo">
             <p id="txtReunioes">REUNIÕES</p>
@@ -56,6 +56,7 @@
             </section>
             <button><a href="#">Reunião via Zoom</a></button>
         </article>
+
         <article>
             <img src="components/logo.png" alt="logo" class="logo">
             <p id="txtReunioes">HISTÓRIAS</p>
@@ -70,6 +71,7 @@
             </section>
         </article>
     </main>
+
     <footer>
         <address><code>&copy;DevUps</code></address>
     </footer>

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-family: 'Inter' ;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.79);
+}
+
+#perfilLogo {
+    cursor: pointer;
+    width: 40px;
+}
+
+header{
+    display: inline-flex;
+}
+
+#menu > li {
+   display: inline-block;
+   padding: 0px 20px; 
+}
+
+li :hover {
+    color: #FFC700;
+}
+
+#menu > li > a {
+    transition: all 0.3s ease 0s;
+}
+
+button {
+    width: 150px;
+    weight: 40px;
+    background: #FFC700;
+    border-radius: 50px;
+    border:  none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 27px;
+    line-height: 37px;  
+}
+
+button:hover {
+    background-color: #e3b308;
+}
+
+img{
+    padding: 20px;
+}
+
+/* */
+#imgPaginaInicial {
+    margin-top: 3px;
+    background-color: #ffc800;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#dependenteInicial {
+    opacity: 0.9;
+    box-shadow: 0px 0px 2px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 400px;
+    width: 830.19px;
+    height: 800px;
+}
+
+/* #txtInicial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    font-size: 35px;
+} */
+
+#txtInicial {
+    width: 880px;
+    height: 800px;
+    
+    font-family: 'Sans Serif Collection';
+    font-style: normal;
+    font-weight: 380;
+    font-size: 38px;
+    line-height: 153.02%;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: -0.01em;
+}
