@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Handlee;
+}
+
+/* Gerais */
+
+section{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.79);
+    z-index: 999;
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+aside {
+    display: grid;
+    place-items: center;
+
+    position: relative;
+    width: 650px;
+    height: 460px;
+
+    background: white;
+    box-shadow: 0px 0px 5px 3px #FFC700;
+}
+
+#centerPage {
+    margin-top: 50px;
+}
+
+/* Logomarca */
+
+#logomarca{
+    display: flex;
+    align-items: center;
+}
+#logomarca svg{
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 90px;
+}
+#logomarca h1{
+    font-size: 35px;
+}
+
+/* Navegação - menu */
+
+#navegacao{
+    display: flex;
+    align-items: center;
+}
+
+#navegacao ul{
+    display: flex;
+}
+
+#navegacao li{
+    list-style: none;
+}
+
+#navegacao a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 25px;
+    color: black;
+}
+
+#indexSite {
+    text-decoration: none;
+    color: black;
+}
+
+/* Epsaço de menu */
+
+#Espaco_menu{
+    height: 130px;
+}
+
+/* Perfil */ 
+
+label {
+    font-weight: bolder;
+}
+
+#avatarIcon {
+    box-shadow: 0px 0px 4px 4px rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 200px;
+    margin-top: 15px;
+}
+
+#editarIconeBotao {
+    background-color: black;
+    color: #FFC700;
+    border-radius: 20px;
+    width: 130px;
+}
+
+#mudarNomeApelido {
+    width: 320px;
+    border-radius: 50px;
+    border-color: black;
+    text-align: center;
+}
+
+#novaSenha {
+    width: 320px;
+    border-radius: 50px;
+    border-color: black;
+    text-align: center;
+}
+
+#confirmarNovaSenha {
+    width: 320px;
+    border-radius: 50px;
+    border-color: black;
+    text-align: center;
+}
+
+#botaoEnviar {
+    background-color: #FFC700;
+    color: black;
+    border-radius: 50px;
+    width: 130px;
+    margin-bottom: 20px;
+}
